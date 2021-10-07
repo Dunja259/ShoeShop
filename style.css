@@ -1,0 +1,102 @@
+/* Home */
+
+.navMenu,ul,li,.shopNavMenu{
+    display: inline;
+    float:right; 
+}
+.navMenu,ul,li{
+    margin:-5px 5px 0px 0px;
+}
+.navText{
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+    padding:10px;
+}
+.navText:hover{
+    color:darkgoldenrod;
+}
+.main{
+    background-image: url(pozadina.png);
+    min-height: 100vh;
+    width:100%;  
+    background-position: center;
+    background-size:cover;
+}
+.head1,.head2,.paragraph{
+    margin-left:100px;
+}
+.head1{
+    font-size:60px;
+}
+.line{
+    width: 350px;
+    margin-left: 100px;
+    margin-top:-30px;
+}
+.head2{
+    font-size:35px;
+}
+.paragraph{
+    font-size:25px;
+}
+
+/* Contact */
+
+.map{
+    margin-left:100px;
+}
+
+/* Shop */
+
+.shopNavMenu{
+    margin:25px 5px 0px 0px;
+}
+.shoe{
+    width: 300px;
+    height: 300px;
+    display:inline;
+    margin:100px 0px 0px 100px;
+    border:2px solid ivory;
+    box-shadow: 5px 5px grey;
+}
+.shoe:hover{
+    width: 310px;
+    height: 310px;
+}
+
+/* Pay */
+
+.payFrom{
+    border:1px solid black;
+    padding:15px;
+    box-shadow: 5px 5px black;
+    width: fit-content;
+    height: fit-content;
+    margin-left:200px;
+}
+.collapsible{
+    background-color: white;
+    border:1px solid white;
+    color:darkslateblue;
+    cursor: pointer;
+    font-size:20px;
+}
+.content{
+    display: none;
+    overflow: hidden;
+}
+.payHead{
+    font-size:50px;
+}
+.payText{
+    font-size:25px;
+}
+.payButton{
+    background-color: white;
+    border-radius: 5px;
+    font-size:20px;
+}
+.payButton:hover{
+    color:darkgoldenrod;
+}
