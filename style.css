@@ -101,4 +101,14 @@
 .payButton:hover{
     color:darkgoldenrod;
 }
-
+@media (max-width: 600px) {
+    .paragraph {
+      background-color: white;
+    }
+}
+@media (max-width: 600px) {
+    .map {
+      width: 400px;
+      height: 400px;
+    }
+}
