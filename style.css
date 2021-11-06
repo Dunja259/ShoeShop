@@ -101,3 +101,9 @@
 .payButton:hover{
     color:darkgoldenrod;
 }
+
+@media only screen and (max-width: 600px) {
+  .paragraph {
+    color: yellow;
+  }
+
