@@ -5,23 +5,23 @@
     float:right; 
 }
 .navMenu,ul,li{
-    margin:-5px 5px 0px 0px;
+    margin:-5px 5px 0 0;
 }
 .navText{
-    text-decoration: none;
-    font-size:20px;
     color:black;
+    font-size:20px;
     padding:10px;
+    text-decoration: none;
 }
 .navText:hover{
     color:darkgoldenrod;
 }
 .main{
     background-image: url(pozadina.png);
-    min-height: 100vh;
-    width:100%;  
     background-position: center;
     background-size:cover;
+    min-height: 100vh;
+    width:100%;  
 }
 .head1,.head2,.paragraph,.fb-share-button{
     margin-left:100px;
@@ -30,9 +30,9 @@
     font-size:60px;
 }
 .line{
-    width: 350px;
     margin-left: 100px;
     margin-top:-30px;
+    width: 350px;
 }
 .head2{
     font-size:35px;
@@ -50,30 +50,31 @@
 /* Shop */
 
 .shopNavMenu{
-    margin:25px 5px 0px 0px;
+    margin:25px 5px 0 0;
 }
 .shoe{
-    width: 300px;
-    height: 300px;
-    display:inline;
-    margin:100px 0px 0px 100px;
     border:2px solid ivory;
     box-shadow: 5px 5px grey;
+    display:inline;
+    height: 300px;
+    margin:100px 0 0 100px;
+    width: 300px;
 }
 .shoe:hover{
-    width: 310px;
     height: 310px;
+    width: 310px;
 }
 
 /* Pay */
 
 .payFrom{
     border:1px solid black;
-    padding:15px;
     box-shadow: 5px 5px black;
-    width: fit-content;
     height: fit-content;
     margin-left:200px;
+    padding:15px;
+    width: fit-content;
+   
 }
 .collapsible{
     background-color: white;
